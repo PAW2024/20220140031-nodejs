@@ -1,0 +1,76 @@
+.contact {
+  background-color: #f9f9f9;
+  background-image: url('https://images.bisnis.com/posts/2022/09/08/1575662/cuci_sepatu.jpg'); /* Ganti dengan URL gambar Anda */
+  background-size: cover; /* Agar gambar mengisi area secara proporsional */
+  background-position: center; /* Posisikan gambar di tengah */
+  background-repeat: no-repeat; /* Hindari pengulangan gambar */
+  padding: 60px 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.contact h2 {
+  font-size: 40px;
+  color: #333;
+  text-align: center;
+  margin-bottom: 25px;
+  font-family: 'Arial', sans-serif;
+  letter-spacing: 1.5px;
+}
+
+.contact p {
+  font-size: 18px;
+  color: #120101;
+  text-align: center;
+  margin-bottom: 35px;
+  line-height: 1.6;
+}
+
+.contact form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  max-width: 500px;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+  border-color: khaki;
+  box-shadow: 0 0 5px rgba(76, 108, 140, 0.5);
+}
+
+.contact button {
+  background-color: khaki;
+  color: black;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.contact button:hover {
+  background-color: khaki;
+  transform: scale(1.05);
+}
+
+.contact button:active {
+  background-color: khaki;
+  transform: scale(0.98);
+}

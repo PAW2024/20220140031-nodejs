@@ -1,0 +1,131 @@
+.todolist {
+  background: linear-gradient(135deg, #f0f4ff, #cce7ff);
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  max-width: 1200px;
+  margin: 50px auto;
+  font-family: 'Arial', sans-serif;
+}
+
+.add-todo {
+  width: 30%;
+  background: linear-gradient(90deg, #5e81ac, #3b5998);
+  color: white;
+  font-size: 1.1rem;
+  padding: 12px 20px;
+  border-radius: 5px;
+  border: none;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.add-todo:hover {
+  background: linear-gradient(90deg, #4c6c8c, #2e4057);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.editBtn,
+.deleteBtn {
+  width: 45%;
+  padding: 10px;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.editBtn {
+  background: linear-gradient(90deg, #38b000, #34a300);
+  color: white;
+  border: none;
+}
+
+.editBtn:hover {
+  background: linear-gradient(90deg, #2d8f00, #287b00);
+  transform: translateY(-3px);
+}
+
+.deleteBtn {
+  background: linear-gradient(90deg, #e74c3c, #c0392b);
+  color: white;
+  border: none;
+}
+
+.deleteBtn:hover {
+  background: linear-gradient(90deg, #c0392b, #a62c21);
+  transform: translateY(-3px);
+}
+
+.todo-card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.todo-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.card-title::before {
+  content: '📝';
+  margin-right: 10px;
+  font-size: 1.5rem;
+}
+
+.modal-content {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.modal-header {
+  background: linear-gradient(90deg, #5e81ac, #3b5998);
+  color: white;
+  padding: 15px;
+}
+
+.modal-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.form-control {
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #5e81ac;
+  box-shadow: 0 0 8px rgba(94, 129, 172, 0.5);
+  outline: none;
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, #5e81ac, #3b5998);
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(90deg, #4c6c8c, #2e4057);
+  transform: translateY(-3px);
+}
